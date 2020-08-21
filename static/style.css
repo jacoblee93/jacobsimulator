@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+.create-account-container {
+  width: 136px;
+}
+
+.create-account-container a.create-account {
+  color: whitesmoke;
+  background-color: steelblue;
+  padding: 12px;
+  border-radius: 2px;
+  width: 100%;
+  height: 100%;
+}
+
+.create-account-container:hover .create-account {
+  position: relative;
+  left: 420px;
+}
+
+.visitor-count {
+  color: blanchedalmond;
+  font-family: monospace;
+  width: 100%;
+}
